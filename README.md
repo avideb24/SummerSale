@@ -1,0 +1,2 @@
+# SummerSale
+assignment project.
