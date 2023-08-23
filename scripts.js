@@ -45,7 +45,7 @@ const discountedPriceElement = document.getElementById('discounted-total-price')
 function applyCoupon() {
     const discountPercentage = 0.2; // 20% discount
 
-    if (couponCodeInput.value === 'SELL20') {
+    if (couponCodeInput.value === 'SELL200') {
         const discountedPrice = totalPrice * (1 - discountPercentage);
         const discountAmount = totalPrice * discountPercentage;
 
